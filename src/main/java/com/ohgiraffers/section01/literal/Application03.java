@@ -14,8 +14,8 @@ public class Application03 {
 
         /* 목차. 2. 세 개의 문자열 합치기 */
         System.out.println("===========================세 개의 문자열 합치기========================");
-        System.out.println(9+9+"9");
-        System.out.println(9+"9"+9);
+        System.out.println(9+9+"9");//189
+        System.out.println(9+"9"+9);//999
 
         System.out.println("9"+(9+9));//필기. 문자열이 붙기만 하면 흡수가 된다 .
 

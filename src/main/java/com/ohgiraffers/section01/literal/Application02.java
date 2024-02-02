@@ -11,8 +11,10 @@ public class Application02 {
         System.out.println(123+456);
         System.out.println(85-11);
         System.out.println(78*85);
-        System.out.println(88/11);
+        System.out.println(88/10);
         System.out.println(86%5);   //mod 연산자
+
+
 
         /* 목차. 1-2. 실수와 실수의 연산 */
         System.out.println("=======================실수와 실수의 연산==========================");
@@ -60,6 +62,7 @@ public class Application02 {
         System.out.println('a'*1.5);
         System.out.println('a'/1.5);
         System.out.println('a'%1.5);
+        System.out.println('d'%3.0);
 
         /*필기.
         *  여기서 결론은 문자는 내부적으로 숫자 취급을 한다는 것이다.
@@ -99,7 +102,7 @@ public class Application02 {
 //        System.out.println(true-'a');
 //        System.out.println(true*'a');
 //        System.out.println(true/'a');
-//        System.out.println(true%'a');
+//        System.out.println(true%'');
 
 
 
